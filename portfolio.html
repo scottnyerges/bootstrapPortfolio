@@ -3,19 +3,67 @@
 <html lang=“en-us”>
 	<head>
 		<meta charset=“UFT-8”>
-		<title>Page Title</title>
+		<title>Scott's shiba portfolio</title>
+		
 		<!-- this is bootstrap css -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<!-- custom css -->
+		<link rel="stylesheet" href="style.css">
 		<!-- this is code for responsive layout -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-
-<body>
-
-
-	
-
-</body>
-
-</html>
-
+	<body>
+		<!-- this is navbar code from codeply; brands needs to be replaced w. logo -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<a href="https://nyerges.com/" target="_blank" class="navbar-brand">Scott Nyerges</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar7">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse collapse justify-content-stretch" id="navbar7">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="portfolio.html">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- this is the container for the whole body -->
+		<div class="container-fluid">
+			<!-- needs margins -->
+			<div class="row">
+				<div class="col-lg-8">
+				<!-- This is where the portfolio content will go -->
+				dynamic portfolio content goes here					
+				</div>
+					
+					<div class="col-lg-4">
+						<h3 align="center">Connect with Me</h3>
+						<div style="border-bottom:1px solid #ccc;">
+							<!-- this left blank -->
+						</div>
+						
+						<div class="flex-row">
+							<div class="flex-column">
+								<!-- social icons here -->
+								<a href="https://github.com/scottnyerges" target="_blank"><img src="assets/images/github-128.png" class="img-fluid" alt="GitHub" width="20%"></a>
+								<a href="https://www.linkedin.com/in/scottnyerges/" target="_blank"><img src="assets/images/linkedin-128.png" class="img-fluid" alt="LinkedIn" width="20%"></a>
+								<a href="https://stackoverflow.com/users/8798302/scott" target="_blank"><img src="assets/images/stackoverflow-128.png" class="img-fluid" alt="Stack Overflow" width="20%"></a>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+			<!-- this is the sticky footer -->
+			<footer class="footer">
+				<div class="container-fluid bg-dark">
+					<span class="text-muted">Copyright 2017 Scott Nyerges</span>
+				</div>
+			</footer>
+		</body>
+	</html>
